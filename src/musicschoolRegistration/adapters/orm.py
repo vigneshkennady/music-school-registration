@@ -77,15 +77,6 @@ lesson = Table(
 )
 
 
-# def start_mappers():
-#     logger.info("string mappers")
-#     # SQLAlchemy 2.0
-   
-#     batches_mapper = mapper(
-#         models.PetService,
-#         petService)
-#     # SQLAlchemy 1.3
-#     # bookmarks_mapper = mapper(Bookmark, bookmarks)
 
 def start_mappers():
     

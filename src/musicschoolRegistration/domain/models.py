@@ -21,7 +21,6 @@ class Lesson:
                     student_id=student.student_id,
                     lesson_name=student.lesson_name,
                     student_name=student.student_name,
-                    #lesson_id=petservice.lesson_id
                 )
             )
             

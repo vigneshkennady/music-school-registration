@@ -67,7 +67,7 @@ class TestAddMusicLesson:
         assert bus.uow.lessons.get("Violin Beginner") is not None
         assert bus.uow.committed
 
-    def test_for_existing_petservice(self):
+    def test_for_existing_musicLesson(self):
         bus = bootstrap_test_app()
         bus.handle(commands.CreateLesson("Violin Beginner",50,"XYZ",5))
         bus.handle(commands.CreateLesson("Violin Beginner",50,"XYZ",5))
