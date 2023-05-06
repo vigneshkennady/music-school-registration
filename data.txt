@@ -1,0 +1,11 @@
+curl -d '{"lesson_name":"Violin Beginner","price":100,"teacher_name":"XYZ","qty": 5}' -H 'Content-Type: application/json' http://127.0.0.1:5005/add_lesson  
+curl -d '{"lesson_name":"Violin Intermediate","price":200,"teacher_name":"YZX","qty": 7}' -H 'Content-Type: application/json' http://127.0.0.1:5005/add_lesson 
+curl -d '{"lesson_name":"Violin Advanced","price":50,"teacher_name":"POX","qty": 9}' -H 'Content-Type: application/json' http://127.0.0.1:5005/add_lesson
+curl -d '{"lesson_name":"Guitar Begineer","price":50,"teacher_name":"XOP","qty": 3}' -H 'Content-Type: application/json' http://127.0.0.1:5005/add_lesson
+
+curl -d '{"student_id":3456,"lesson_name":"Violin Beginner","student_name":"David"}' -H 'Content-Type: application/json' http://127.0.0.1:5005/allocate_lesson
+curl -d '{"student_id":8976,"lesson_name":"Violin Intermediate","student_name":"Carter"}' -H 'Content-Type: application/json' http://127.0.0.1:5005/allocate_lesson
+curl -d '{"student_id":9876,"lesson_name":"Violin Advanced","student_name":"Lenin"}' -H 'Content-Type: application/json' http://127.0.0.1:5005/allocate_lesson
+curl -d '{"student_id":5634,"lesson_name":"Violin Advanced","student_name":"Paula"}' -H 'Content-Type: application/json' http://127.0.0.1:5005/allocate_lesson
+
+
